@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 2%;
+    padding-top: 20px;
+}
+.name{
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.navOptions > ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    width: 350px;
+}
+
+.content{
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    align-content: center;
+}
+.content > h5{
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
